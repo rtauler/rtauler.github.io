@@ -1,0 +1,41 @@
+<header class="header">
+  <div class="header-container">
+    <div class="header-inner">
+      <div class="logo">
+        <a href="{{ '/' | relative_url }}">
+          <img src="/assets/favicon/favicon.svg" alt="">
+        </a>
+      </div>
+      <!-- Hidden checkbox for toggling the mobile menu -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+      <!-- Label that acts as the two-bar hamburger icon -->
+      <label for="menu-toggle" class="menu-toggle-label">
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+          <li class="dropdown">
+            <a href="{{ '/servicios' | relative_url }}">Servicios</a>
+            <ul class="dropdown-menu">
+              {% assign servicios_values = site.data.servicios | values %}
+              {% for pair in servicios_values %}
+              {% assign servicio = pair[1] %}
+              <li>
+                <a href="{{ servicio.hero.permalink }}">
+                  <img class="menu-icon" src="{{ servicio.hero.icon | relative_url}}">
+                  <span class="service-title">{{ servicio.hero.title }}</span>
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li><a href="{{ '/nosotros' | relative_url }}">Nosotros</a></li>
+          <!-- <li><a href="{{ '/blog' | relative_url }}">Blog</a></li> -->
+          <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

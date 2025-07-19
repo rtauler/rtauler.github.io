@@ -1,0 +1,27 @@
+<footer class="">
+  <div class="header-container">
+    <div class="header-inner">
+      <div class="logo">
+        <a href="{{ '/' | relative_url }}">
+          <img src="/assets/favicon/favicon.svg" alt="">
+        </a>
+      </div>
+      <!-- Hidden checkbox for toggling the mobile menu -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+      <!-- Label that acts as the two-bar hamburger icon -->
+      <label for="menu-toggle" class="menu-toggle-label">
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+          <li><a href="{{ '/servicios' | relative_url }}">Servicios</a></li>
+          <li><a href="{{ '/nosotros' | relative_url }}">Nosotros</a></li>
+          <!-- <li><a href="{{ '/blog' | relative_url }}">Blog</a></li> -->
+          <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>

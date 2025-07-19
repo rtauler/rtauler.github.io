@@ -1,0 +1,71 @@
+hero:
+  title: "Diseño y Multimedia"
+  tagline: "Creación de sitios web, apps móviles, software personalizado, automatización, minería de datos e integración de APIs"
+  cta: "Contáctanos"
+  icon: "assets/icons/design.svg"
+  permalink: "/servicios/diseno-multimedia/"
+services:
+  - name: "Diseño Gráfico"
+    icon: "assets/icons/graphic-design.svg"
+    desc: "Servicio de diseño gráfico especializado en logotipos, banners y branding."
+    techs:
+      - Illustrator
+      - Photoshop
+      - Canva
+    Ejemplo1: "<p><span><b>Identidad Corporativa para Startup:</b> Creación de logotipo, paleta de colores, tipografía y manual de marca.</span><span>(Illustrator, Photoshop)</span></p>"
+    Ejemplo2: "<p><span><b>Banners Publicitarios para Redes Sociales:</b> Diseño de imágenes para campañas en Facebook e Instagram.</span><span>(Canva, Photoshop)</span></p>"
+    Ejemplo3: "<p><span><b>Diseño de Merchandising para Marca:</b> Creación de etiquetas, empaques y gráficos para tazas y camisetas.</span><span>(Illustrator, CorelDRAW)</span></p>"
+
+  - name: "Diseño UX/UI para Apps y Webs"
+    icon: "assets/icons/ux-ui-design.svg"
+    desc: "Servicio de diseño UX/UI para aplicaciones y sitios web."
+    techs:
+      - Figma
+      - Adobe XD
+      - Sketch
+    Ejemplo1: "<p><span><b>Prototipo de App de Finanzas:</b> Diseño de interfaz y flujo de usuario para una aplicación bancaria.</span><span>(Figma, Adobe XD)</span></p>"
+    Ejemplo2: "<p><span><b>Rediseño de Tienda Online:</b> Optimización de UX/UI para mejorar la conversión de un e-commerce.</span><span>(Sketch, Figma)</span></p>"
+    Ejemplo3: "<p><span><b>Dashboard para Plataforma SaaS:</b> Diseño de interfaz y experiencia de usuario para un software de gestión de tareas.</span><span>(Adobe XD, InVision)</span></p>"
+
+  - name: "Edición y Postproducción de Video"
+    icon: "assets/icons/edit-video.svg"
+    desc: "Servicio de edición y postproducción de video, ideal para spots publicitarios y contenidos digitales."
+    techs:
+      - Premiere Pro
+      - After Effects
+      - DaVinci Resolve
+    Ejemplo1: "<p><span><b>Video Publicitario para Empresa:</b> Edición de un spot comercial con animaciones y efectos.</span><span>(Premiere Pro, After Effects)</span></p>"
+    Ejemplo2: "<p><span><b>Edición de Videos para YouTube:</b> Montaje de contenido para creadores, con transiciones y subtítulos.</span><span>(Final Cut, DaVinci Resolve)</span></p>"
+    Ejemplo3: "<p><span><b>Animación 2D para Curso Online:</b> Creación de gráficos en movimiento explicativos.</span><span>(After Effects, Toon Boom)</span></p>"
+  - name: "Animación y Motion Graphics"
+    icon: "assets/icons/motion-graphics.svg"
+    desc: "Creación de animaciones dinámicas y efectos visuales para videos, presentaciones y redes sociales."
+    techs:
+      - After Effects
+      - Blender
+      - Toon Boom
+    Ejemplo1: "<p><span><b>Intro Animada para Canal de YouTube:</b> Creación de una animación de marca con transiciones fluidas y efectos llamativos.</span><span>(After Effects, Cinema 4D)</span></p>"
+    Ejemplo2: "<p><span><b>Animaciones Explicativas para Startups:</b> Videos cortos con gráficos animados para explicar productos y servicios.</span><span>(Toon Boom, Adobe Animate)</span></p>"
+    Ejemplo3: "<p><span><b>Publicidad Animada para Instagram:</b> Creación de videos en formato corto con motion graphics llamativos.</span><span>(After Effects, Premiere Pro)</span></p>"
+
+  - name: "Diseño para Redes Sociales"
+    icon: "assets/icons/social-media.svg"
+    desc: "Diseño de contenido visual atractivo y optimizado para redes sociales."
+    techs:
+      - Photoshop
+      - Illustrator
+      - Canva
+    Ejemplo1: "<p><span><b>Pack de Plantillas para Instagram:</b> Diseño de gráficos y formatos reutilizables para mejorar la presencia visual.</span><span>(Canva, Photoshop)</span></p>"
+    Ejemplo2: "<p><span><b>Imágenes Promocionales para Campañas Publicitarias:</b> Creación de banners, posts y stories para anuncios en redes.</span><span>(Illustrator, Photoshop)</span></p>"
+    Ejemplo3: "<p><span><b>Branding para un Influencer:</b> Diseño de elementos visuales para fortalecer la identidad de marca personal.</span><span>(Figma, Adobe XD)</span></p>"
+
+  - name: "Diseño de Presentaciones Profesionales"
+    icon: "assets/icons/powerpoint.svg"
+    desc: "Creación de presentaciones visualmente impactantes para empresas, startups y conferencias."
+    techs:
+      - PowerPoint
+      - Keynote
+      - Canva
+    Ejemplo1: "<p><span><b>Pitch Deck para Startup:</b> Diseño de presentación para inversores con gráficos y storytelling visual.</span><span>(PowerPoint, Figma)</span></p>"
+    Ejemplo2: "<p><span><b>Presentación Corporativa para Empresa:</b> Creación de diapositivas profesionales para reuniones y propuestas de negocio.</span><span>(Keynote, Illustrator)</span></p>"
+    Ejemplo3: "<p><span><b>Infografías Interactivas para Conferencia:</b> Diseño de materiales visuales explicativos para ponencias y eventos.</span><span>(Canva, Photoshop)</span></p>"

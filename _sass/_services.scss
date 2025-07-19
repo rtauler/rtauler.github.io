@@ -1,0 +1,161 @@
+@import 'shareable';
+
+.services {
+  background-color: #f8f9fa;
+  &__container {
+    max-width: 56rem;
+    margin: 0 auto;
+    padding: 3rem 1rem 3rem 1rem;
+  }
+
+  &__heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+
+  &__item {
+    @include card;
+  }
+
+  &__link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+  }
+
+  // TailwindUI-inspired icon styling
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;         // roughly 48px
+    height: 3rem;
+    border-radius: 9999px; // fully rounded
+    background-color: #e5e7eb; // Grey background instead of indigo
+    margin: 0 auto 1rem;  // center the icon and add bottom spacing
+    img{
+      width: 1.5rem;      // roughly 24px
+      height: 1.5rem;
+    }
+  }
+
+  &__title {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem;
+    text-align: center;
+  }
+
+  &__description {
+    font-size: 0.8rem;
+    color: #4b5563;
+    text-align: center;
+    margin: 0;
+  }
+}
+/* Services Section */
+.services-section {
+    background-color: #f8f9fa;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    .section-container {
+      max-width: 56rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      
+      @media (min-width: 640px) {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+      @media (min-width: 1024px) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+      .services-list {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 1rem;
+        padding: 0;
+        @media (min-width: 640px) {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .service-item {
+          @include card;
+          
+          .service-icon {
+            flex-shrink: 0;
+            color: #374151;
+            img{
+              height: 2rem;
+              width: 2rem;
+            }
+            svg {
+              fill: currentColor;
+              height: 2rem;
+              width: 2rem;
+            }
+          }
+          .service-content {
+            margin-left: 1rem;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            h3 {
+              margin-top: 0;
+              font-size: 1.125rem;
+              line-height: 1.75rem;
+              font-weight: 700;
+              color: rgb(42,57,77);
+              margin-bottom: .5rem;
+            }
+            
+            p {
+              margin-top: 0;
+              font-size: 0.875rem;
+              line-height: 1.25rem;
+              color: #4b5563;
+              margin-bottom: 0.75rem;
+            }
+            
+            .service-tags {
+              margin-top: auto;
+              display: flex;
+              gap: 0.5rem;
+              align-items: flex-end;
+              
+              .service-tag {
+                padding: 0.25rem 0.5rem;
+                font-size: 10px;
+                font-weight: 400;
+                font-family: monospace;
+                border-radius: 9999px;
+                background-color: #e5e7eb;
+                color: #1f2937;
+                text-align: center;
+                &:hover {
+                  background-color: #374151;
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,223 @@
+.header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  max-width: 56rem;
+  margin: 0 auto;
+  width: 100%; // Ensures full width on smaller screens
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  position: relative;
+}
+
+.logo a {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+  img{
+    height: 3rem;
+  }
+}
+
+/* Hide the checkbox */
+.menu-toggle-checkbox {
+  display: none;
+}
+
+/* Two‑bar hamburger icon styling */
+.menu-toggle-label {
+  display: none; // Shown only on mobile via media query
+  position: relative;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.menu-toggle-label .bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #4a5568;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.menu-toggle-label .bar:first-child {
+  top: 8px;
+}
+.menu-toggle-label .bar:last-child {
+  bottom: 8px;
+}
+
+.menu-toggle-checkbox:checked + .menu-toggle-label .bar:first-child {
+  transform: translateY(3px) rotate(45deg);
+  opacity: 1;
+}
+.menu-toggle-checkbox:checked + .menu-toggle-label .bar:last-child {
+  transform: translateY(-3px) rotate(-45deg);
+  opacity: 1;
+}
+
+/* Desktop navigation */
+.header-nav {
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+  }
+  
+  li {
+    position: relative;
+    &:not(:first-child) {
+      margin-left: 1.5rem;
+    }
+    &:hover {
+      color: #1a202c;
+    }
+    a {
+      color: #4a5568;
+      font-weight: 500;
+      text-decoration: none;
+      // &:hover {
+      //   color: #1a202c;
+      // }
+    }
+  }
+  
+  /* Dropdown menu styles */
+  li.dropdown {
+    a {
+      position: relative;
+      // &::after {
+      //   content: " ⌄";
+      //   font-size: 0.7em;
+      // }
+    }
+    
+    .dropdown-menu {
+      padding: 1.25rem 0 0 0;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #fff;
+      width: 20rem;
+      display: none;
+      z-index: 1000;
+      
+      li {
+        margin: 0;
+        a {
+          color: #4a5568;
+          text-decoration: none;
+          display: flex;             // Use flexbox to align icon and text
+          align-items: center;       // Vertically center the items
+          padding: .75rem;
+          .service-title {
+            font-size: 1rem;
+          }
+          .menu-icon {
+            // Force a consistent square container for icons
+            flex: 0 0 2rem;
+            width: 1.25rem;
+            height: 1.25rem;
+            margin-right: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          
+          &:hover {
+            background-color: #f3f4f6;
+            color: #1f2937;
+          }
+        }
+      }
+    }
+    
+    &:hover .dropdown-menu,
+    &:focus-within .dropdown-menu {
+      display: block;
+    }
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .menu-toggle-label {
+    display: block; // Show hamburger on mobile
+  }
+  
+  .header-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    text-align: right;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+    
+    ul {
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 0rem 1rem 1rem 1rem;
+    }
+    
+    li {
+      margin: 1rem 0;
+      a {
+        font-size: 1.5rem;
+      }
+      
+      // On mobile, the dropdown submenu stays static
+      &.dropdown {
+        .dropdown-menu {
+          position: static;
+          box-shadow: none;
+          display: none;
+          max-width: 100%; // Full width on mobile
+          padding-bottom: 0;
+        }
+        &:hover .dropdown-menu,
+        &:focus-within .dropdown-menu {
+          display: block;
+        }
+      }
+    }
+  }
+  
+  .menu-toggle-checkbox:checked ~ .header-nav {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  /* Mobile: Reverse flex order and ensure consistent text alignment */
+  .header-nav li.dropdown .dropdown-menu li a {
+    flex-direction: row-reverse;
+  }
+  
+  .header-nav li.dropdown .dropdown-menu li a .service-title {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .header-nav li.dropdown .dropdown-menu li a .menu-icon {
+    margin-right: 0;
+    margin-left: 1rem;
+  }
+}

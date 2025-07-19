@@ -1,0 +1,9 @@
+# Instructions
+
+To run the site locally:
+
+1. Install dependencies: `bundle install`
+2. Run the server: `bundle exec jekyll serve`
+3. Or use Python server: `python3 -m http.server 8000 --directory ~/rtcc.github.io/_site/`
+
+The site will be available at http://localhost:4000 (Jekyll) or http://localhost:8000 (Python)

@@ -1,0 +1,39 @@
+.hero-cards{
+	text-align: left;
+	flex-basis: 35%;
+	@media (max-width: 640px) {
+		text-align: center;
+	}
+	.hero-cards-wrapper{
+		a.hero-card-link{
+			text-decoration: none;
+			display: block;
+			margin-bottom: 1rem;
+			.hero-card{
+				border-radius: .5rem;
+				border: 1px dashed gray;
+				padding: 1rem;
+				img.hero-card-icon{
+					max-width: 2rem;
+					max-height: 2rem;
+					@media (max-width: 640px) {
+						margin: 0 auto;
+					}
+				}
+				h2{
+					font-weight: 500;
+					margin-bottom: .5rem;
+				}
+				p{
+					font-family: monospace;
+					margin: 0;
+					background-color: #374151;
+					border-radius: 5px;
+					padding: 4px 8px;
+					color: white;
+					display: inline-block;
+				}
+			}
+		}
+	}
+}

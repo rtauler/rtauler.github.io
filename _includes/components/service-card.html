@@ -1,0 +1,14 @@
+<li class="service-item">
+    <div class="service-icon">
+        <img src="{{include.service.icon | relative_url}}">
+    </div>
+    <div class="service-content">
+        <h3>{{ include.service.name }}</h3>
+        <p>{{ include.service.desc }}</p>
+        <div class="service-tags">
+            {% for tech in service.techs %}
+                <span class="service-tag">{{ tech }}</span>
+            {% endfor %}
+        </div>
+    </div>
+</li>

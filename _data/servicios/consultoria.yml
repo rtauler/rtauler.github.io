@@ -1,0 +1,78 @@
+hero:
+  title: "Consultoría y Formación"
+  tagline: "Transforma tu futuro digital con asesoría experta y formación práctica"
+  cta: "Contáctanos"
+  icon: "assets/icons/consultancy.svg"
+  permalink: "/servicios/consultoria/"
+
+services:
+  - name: "Consultoría en Transformación Digital"
+    icon: "assets/icons/digital-transformation.svg"
+    desc: "Servicio de Consultoría en Transformación Digital que te ayuda a implementar estrategias innovadoras y optimizar procesos para crecer en el entorno digital."
+    techs:
+      - HubSpot
+      - Zapier
+      - Notion
+      - Google Workspace
+    Ejemplo1: "<p><span><b>Digitalización de una PyME:</b> Implementación de herramientas digitales (CRM, automatización de procesos y marketing digital) para mejorar la eficiencia de una empresa tradicional. </span><span>(HubSpot, Zapier, Notion, Google Workspace)</span></p>"
+    Ejemplo2: "<p><span><b>Optimización de Flujos de Trabajo en una Empresa de Logística:</b> Uso de RPA y software de gestión para reducir costos y tiempos en la gestión de envíos. </span><span>(UiPath, Power Automate, SAP ERP)</span></p>"
+    Ejemplo3: "<p><span><b>Estrategia Digital para una Franquicia de Restaurantes:</b> Implementación de pedidos online, fidelización de clientes y análisis de datos con IA. </span><span>(Shopify, OpenTable, Power BI)</span></p>"
+
+  - name: "Mentoría en Creación de Startups y Negocios Digitales"
+    icon: "assets/icons/startup-mentoring.svg"
+    desc: "Servicio de Mentoría en Creación de Startups y Negocios Digitales para guiar a emprendedores en el desarrollo de modelos de negocio y estrategias de crecimiento."
+    techs:
+      - Lean Startup
+      - Business Model Canvas
+      - Pitch Decks
+    Ejemplo1: "<p><span><b>Acompañamiento en el Lanzamiento de una Startup Tech:</b> Asesoría en modelo de negocio, desarrollo de MVP y levantamiento de capital. </span><span>(Lean Startup, Business Model Canvas, Pitch Decks)</span></p>"
+    Ejemplo2: "<p><span><b>Estrategia de Crecimiento para un Negocio de E-commerce:</b> Optimización de embudos de conversión y estrategia de adquisición de clientes. </span><span>(SEO, Facebook Ads, Email Marketing)</span></p>"
+    Ejemplo3: "<p><span><b>Monetización de una Plataforma de Contenido Digital:</b> Creación de estrategias de membresía, publicidad y productos digitales para un negocio basado en suscripciones. </span><span>(Patreon, Gumroad, Hotmart)</span></p>"
+
+  - name: "Auditoría de UX/UI para Sitios Web"
+    icon: "assets/icons/ux-audit.svg"
+    desc: "Servicio de Auditoría de UX/UI para Sitios Web que identifica áreas de mejora en la experiencia del usuario y optimiza la interfaz para aumentar la conversión."
+    techs:
+      - Figma
+      - Adobe XD
+      - Google Analytics
+      - Hotjar
+    Ejemplo1: "<p><span><b>Análisis de Usabilidad de un E-commerce:</b> Evaluación de experiencia de usuario y optimización de la conversión. </span><span>(Figma, Google Analytics, Hotjar)</span></p>"
+    Ejemplo2: "<p><span><b>Auditoría UX de una App Financiera:</b> Identificación de problemas en el flujo de usuarios y rediseño de pantallas clave. </span><span>(Adobe XD, Usability Testing, A/B Testing)</span></p>"
+    Ejemplo3: "<p><span><b>Optimización UX para una Plataforma SaaS:</b> Mejora de la navegación y reducción de la tasa de abandono en un software empresarial. </span><span>(Heurísticas de Nielsen, Figma, Maze)</span></p>"
+
+  - name: "Optimización SEO y Marketing Digital"
+    icon: "assets/icons/seo.svg"
+    desc: "Consultoría en SEO y Marketing Digital para mejorar la visibilidad en motores de búsqueda y optimizar estrategias de adquisición de clientes."
+    techs:
+      - SEO
+      - Google Ads
+      - Facebook Ads
+      - SEMrush
+    Ejemplo1: "<p><span><b>Estrategia SEO para una Tienda Online:</b> Implementación de contenido optimizado y mejora en la arquitectura web. </span><span>(Google Search Console, Ahrefs, SEMrush)</span></p>"
+    Ejemplo2: "<p><span><b>Campaña de Anuncios para un Negocio Local:</b> Creación y optimización de campañas en Google Ads y Facebook Ads para aumentar la captación de clientes. </span><span>(Google Ads, Facebook Ads, Analytics)</span></p>"
+    Ejemplo3: "<p><span><b>Email Marketing para una Empresa SaaS:</b> Implementación de estrategias de automatización y segmentación. </span><span>(Mailchimp, HubSpot, ActiveCampaign)</span></p>"
+
+  - name: "Automatización de Procesos Empresariales"
+    icon: "assets/icons/automation.svg"
+    desc: "Servicio de Automatización de Procesos Empresariales para mejorar la eficiencia operativa y reducir costos mediante herramientas avanzadas."
+    techs:
+      - RPA
+      - Power Automate
+      - UiPath
+      - Zapier
+    Ejemplo1: "<p><span><b>Automatización de Facturación en una PyME:</b> Uso de RPA para reducir errores y optimizar la generación de facturas. </span><span>(UiPath, SAP ERP, Power Automate)</span></p>"
+    Ejemplo2: "<p><span><b>Integración de CRM con Sistemas de Ventas:</b> Uso de Zapier para conectar CRM con plataformas de e-commerce y mejorar la gestión de clientes. </span><span>(Zapier, HubSpot, Shopify)</span></p>"
+    Ejemplo3: "<p><span><b>Reducción de Tiempos en Atención al Cliente:</b> Implementación de chatbots para responder preguntas frecuentes y mejorar la experiencia del usuario. </span><span>(Dialogflow, ChatGPT, Twilio)</span></p>"
+
+  - name: "Seguridad y Protección de Datos"
+    icon: "assets/icons/cybersecurity.svg"
+    desc: "Asesoramiento en Seguridad Informática y Protección de Datos para empresas que buscan proteger su información y cumplir con normativas de privacidad."
+    techs:
+      - Ciberseguridad
+      - ISO 27001
+      - GDPR
+      - Firewalls
+    Ejemplo1: "<p><span><b>Evaluación de Seguridad en una Empresa:</b> Auditoría y aplicación de protocolos de seguridad informática. </span><span>(ISO 27001, NIST, CIS Controls)</span></p>"
+    Ejemplo2: "<p><span><b>Implementación de Políticas GDPR en una Startup:</b> Asesoría en el cumplimiento de normativas de protección de datos en Europa. </span><span>(GDPR, DPO, Privacy by Design)</span></p>"
+    Ejemplo3: "<p><span><b>Defensa contra Ataques Cibernéticos:</b> Implementación de firewalls y detección de amenazas en tiempo real. </span><span>(Fortinet, Palo Alto Networks, SIEM)</span></p>"

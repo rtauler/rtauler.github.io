@@ -1,0 +1,110 @@
+hero:
+  title: "Desarrollo y Programación"
+  tagline: "Creación de sitios web, apps móviles, software personalizado, automatización, minería de datos e integración de APIs"
+  cta: "Contáctanos"
+  icon: "assets/icons/developer.svg"
+  permalink: "/servicios/desarrollo/"
+services:
+  - name: "Web"
+    icon: "assets/icons/web.svg"
+    desc: "Creación de sitios web modernos, rápidos y personalizados."
+    techs:
+    - HTML
+    - CSS
+    - JavaScript
+    Ejemplo1: "<p><span><b>Landing Page para Restaurante:</b> Web responsiva con menú, reservas y ubicación en Google Maps.</span><span>(HTML, CSS, JS, React/Vue)</span></p>"
+    Ejemplo2: "<p><span><b>Plataforma de Cursos Online:</b> Web tipo Udemy con gestión de usuarios, pagos y videos.</span><span>(React + Firebase)</span></p>"
+    Ejemplo3: "<p><span><b>Dashboard Empresarial:</b> Aplicación interna con gráficas en tiempo real para monitoreo financiero.</span><span>(Vue + Node.js)</span></p>"
+  - name: "Apps Móviles"
+    icon: "/assets/icons/app.svg"
+    desc: "Creación de apps móviles a medida, optimizadas para iOS y Android, con diseño intuitivo y alto rendimiento."
+    techs:
+    - Flutter
+    - React Native
+    - Swift
+    Ejemplo1: "<p><span><b>App de Delivery Local:</b> Aplicaci&oacute;n tipo Rappi/Glovo para pedidos y pagos.</span><span>(Flutter + Firebase)</span></p>"
+    Ejemplo2: "<p><span><b>App de Control de H&aacute;bitos:</b> App de productividad con recordatorios y estad&iacute;sticas.</span><span>(React Native + SQLite)</span></p>"
+    Ejemplo3: "<p><span><b>App para Reservas de Consultas M&eacute;dicas:</b> Permite a pacientes agendar citas con m&eacute;dicos.</span><span>(Swift/Kotlin + Backend en Node.js)</span></p>"
+  - name: "Backend"
+    icon: "/assets/icons/backend.svg"
+    desc: "Creación de sistemas eficientes y escalables para el funcionamiento de aplicaciones y plataformas digitales."
+    techs:
+    - Node.js
+    - Django
+    - Laravel
+    Ejemplo1: "<p><span><b>API para E-commerce:</b> Backend que maneja productos, usuarios y pagos.</span><span>(Node.js + MongoDB)</span></p>"
+    Ejemplo2: "<p><span><b>Sistema de Facturaci&oacute;n Online:</b> Creaci&oacute;n de facturas electr&oacute;nicas y reportes financieros.</span><span>(Python + PostgreSQL)</span></p>"
+    Ejemplo3: "<p><span><b>Chat en Tiempo Real:</b> Desarrollo de un chat privado con autenticaci&oacute;n y almacenamiento de mensajes.</span><span>(Ruby on Rails + Redis)</span></p>"
+  - name: "Software a medida"
+    icon: "/assets/icons/custom.svg"
+    desc: Software personalizado adaptado a tus necesidades, optimizando procesos y mejorando eficiencia.
+    techs:
+    - Según proyecto
+    Ejemplo1: "<p><span><b>ERP para una Empresa de Transporte:</b> Sistema que gestiona flotas, rutas y conductores.</span><span>(PHP + MySQL)</span></p>"
+    Ejemplo2: "<p><span><b>CRM para una Agencia Inmobiliaria:</b> Plataforma para administrar clientes, propiedades y ventas.</span><span>(Django + PostgreSQL)</span></p>"
+    Ejemplo3: "<p><span><b>Software de Control de Inventarios:</b> Aplicaci&oacute;n para gesti&oacute;n de stock en almacenes.</span><span>(Java + OracleDB)</span></p>"
+  - name: "Python o RPA"
+    icon: "/assets/icons/python.svg"
+    desc: Ejecuta tareas repetitivas de forma eficiente, reduciendo errores y optimizando tiempos en entornos empresariales.
+    techs:
+    - Python
+    - Robocorp
+    - UiPath
+    Ejemplo1: "<p><span><b>Bot de Extracci&oacute;n de Facturas PDF:</b> Automatizaci&oacute;n que lee facturas y las guarda en Excel. </span><span>(Python + OpenCV)</span></p>"
+    Ejemplo2: "<p><span><b>Automatizaci&oacute;n de Procesos Contables:</b> Un bot en RPA que descarga reportes bancarios y los procesa. </span><span>(UiPath/Power Automate)</span></p>"
+    Ejemplo3: "<p><span><b>Respuesta Autom&aacute;tica en WhatsApp:</b> Bot que responde consultas sobre disponibilidad de productos. </span><span>(Python + Twilio API)</span></p>"
+  - name: "Scraping y Minería de Datos"
+    icon: "/assets/icons/mining.svg"
+    desc: Extracción y análisis de datos web para obtener información valiosa y accionable.
+    techs:
+    - BSoup4 
+    - Scrapy
+    - Selenium
+    - Pandas
+    Ejemplo1: "<p><span><b>Extracci&oacute;n de Precios de la Competencia:</b> Un bot que obtiene precios de e-commerce y genera informes. </span><span>(Python + BeautifulSoup/Selenium)</span></p>"
+    Ejemplo2: "<p><span><b>Monitoreo de Noticias:</b> Herramienta que recopila y categoriza noticias sobre una tem&aacute;tica espec&iacute;fica. </span><span>(Python + NLP)</span></p>"
+    Ejemplo3: "<p><span><b>An&aacute;lisis de Opiniones en Redes Sociales:</b> Scraping de Twitter para medir sentimiento sobre una marca. </span><span>(Python + Pandas)</span></p>"
+  - name: "Integración de APIs y Webhooks"
+    icon: "/assets/icons/api.svg"
+    desc: Conecta sistemas y automatiza flujos de datos en tiempo real mediante APIs y Webhooks, optimizando procesos y mejorando la eficiencia.
+    techs:
+    - Postman
+    - RESTful
+    - GraphQL
+    - Zapier
+    Ejemplo1: "<p><span><b>Conexi&oacute;n con Stripe para Pagos:</b> Integraci&oacute;n de pagos en una tienda online. </span><span>(Node.js + Stripe API)</span></p>"
+    Ejemplo2: "<p><span><b>Sincronizaci&oacute;n entre CRM y WhatsApp:</b> Automatizaci&oacute;n de mensajes a clientes usando Webhooks. </span><span>(Zapier + Twilio)</span></p>"
+    Ejemplo3: "<p><span><b>Automatizaci&oacute;n de Facturaci&oacute;n:</b> Integraci&oacute;n con API de contabilidad para generar facturas autom&aacute;ticamente. </span><span>(PHP + QuickBooks API)</span></p>"
+  - name: "Chatbots"
+    icon: "/assets/icons/chatbot.svg"
+    desc: Creación de chatbots inteligentes para atención automatizada y eficiente.
+    techs:
+    - Dialogflow
+    - Rasa
+    - ChatGPT
+    - Botpress
+    Ejemplo1: "<p><span><b>Chatbot para Servicio al Cliente:</b> Bot que responde preguntas frecuentes y gestiona reclamos. </span><span>(Dialogflow + Twilio API)</span></p>"
+    Ejemplo2: "<p><span><b>Chatbot para Reservas en un Hotel:</b> Permite hacer reservas y confirmar disponibilidad. </span><span>(Python + Telegram API)</span></p>"
+    Ejemplo3: "<p><span><b>Chatbot de Soporte T&eacute;cnico:</b> Ayuda a los usuarios a solucionar problemas con sus dispositivos. </span><span>(Node.js + Messenger API)</span></p>"
+  - name: "CMS personalizados e implementados"
+    icon: "/assets/icons/cms.svg"
+    desc: Desarrollamos e implementamos CMS a medida, adaptados a tus necesidades para una gestión eficiente y personalizada de tu contenido.
+    techs:
+    - WordPress
+    - Strapi
+    - Sanity
+    - Ghost
+    Ejemplo1: "<p><span><b>Blog Profesional:</b> Creaci&oacute;n de un sitio de noticias optimizado para SEO. </span><span>(WordPress + Elementor)</span></p>"
+    Ejemplo2: "<p><span><b>Web Corporativa para una Startup:</b> P&aacute;gina institucional con secciones de servicios y contacto. </span><span>(Joomla + Bootstrap)</span></p>"
+    Ejemplo3: "<p><span><b>E-commerce en WooCommerce:</b> Tienda online con pasarela de pagos y gesti&oacute;n de env&iacute;os. </span><span>(WordPress + WooCommerce)</span></p>"
+  - name: "Desarrollo de Microservicios y Arquitectura Serverless"
+    icon: "assets/icons/microservices.svg"
+    desc: "Diseño e implementación de microservicios y soluciones serverless para aplicaciones escalables, eficientes y de alto rendimiento."
+    techs:
+      - AWS Lambda
+      - Kubernetes
+      - Docker
+      - Firebase Functions
+    Ejemplo1: "<p><span><b>Arquitectura de Microservicios para una Fintech:</b> Separación de servicios en contenedores para mejorar la escalabilidad y la resiliencia de la plataforma.</span><span>(Docker, Kubernetes, API Gateway)</span></p>"
+    Ejemplo2: "<p><span><b>Implementación Serverless en una Tienda Online:</b> Uso de AWS Lambda y Firebase Functions para manejar pagos y envíos sin necesidad de servidores dedicados.</span><span>(AWS Lambda, Firebase, Stripe API)</span></p>"
+    Ejemplo3: "<p><span><b>Optimización de Backend para una App Móvil:</b> Migración de un backend monolítico a una arquitectura basada en microservicios con balanceo de carga.</span><span>(Node.js, GraphQL, Kubernetes)</span></p>"

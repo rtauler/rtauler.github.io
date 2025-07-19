@@ -1,0 +1,11 @@
+<section class="services-section">
+  <div class="section-container">
+    <p class="header-clarif">Tipos de servicios:</p>
+     <h2>{{ include.data.hero.title }}</h2>
+    <ul class="services-list">
+      {% for service in include.data.services %}
+        {% include components/service-card.html service=service %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>

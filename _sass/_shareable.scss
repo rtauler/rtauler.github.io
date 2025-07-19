@@ -1,0 +1,51 @@
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  font-weight: 600;
+  color: rgb(26,36,53);
+  margin: 1.5rem 0;
+  
+  @media (min-width: 640px) {
+    font-size: 2.5rem;
+  }
+  
+  @media (max-width: 640px) {
+    font-size: 1.875rem;
+    margin: 1rem 0;
+  }
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: rgb(42,57,77);
+  margin-bottom: 1rem;
+  margin-top: 0;
+  
+  @media (min-width: 640px) {
+    text-align: left;
+  }
+}
+
+.header-clarif{
+  text-transform: uppercase;
+  font-size: .75rem;
+  color: rgb(86,105,130);
+  margin: 0;
+}
+
+@mixin card{
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 0.3rem;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  &:hover,
+  &:active {
+    transform: scale(1.02); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}

@@ -1,0 +1,44 @@
+<section class="table-section">
+  <div class="table-container">
+    <div class="table-header-wrapper">
+      <p class="header-clarif">Ejemplos de servicio:</p>
+      <h3>Desarrollo y Programación</h3>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <td class="header-cell">
+            <p><span>Servicio</span></p>
+          </td>
+          <td class="header-cell">
+            <p><span>Ejemplo 1</span></p>
+          </td>
+          <td class="header-cell">
+            <p><span>Ejemplo 2</span></p>
+          </td>
+          <td class="header-cell">
+            <p><span>Ejemplo 3</span></p>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        {% for service in include.data.services %}
+        <tr>
+          <td class="table-cell">
+            <p><span>{{ service.name }}</span></p>
+          </td>
+          <td class="table-cell">
+            {{ service.Ejemplo1 | safe }}
+          </td>
+          <td class="table-cell">
+            {{ service.Ejemplo2 | safe }}
+          </td>
+          <td class="table-cell">
+            {{ service.Ejemplo3 | safe }}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>

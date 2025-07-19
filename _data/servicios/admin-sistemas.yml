@@ -1,0 +1,72 @@
+hero:
+  title: "Ciberseguridad y Sysadmin"
+  tagline: "Protege tus activos digitales y asegura la continuidad de tu negocio con soluciones integrales de ciberseguridad"
+  cta: "Contáctanos"
+  icon: "assets/icons/admin.svg"
+  permalink: "/servicios/admin-sistemas/"
+services:
+  - name: "Auditoría de Seguridad Web y Ethical Hacking"
+    icon: "assets/icons/security-audit.svg"
+    desc: "Servicio de Auditoría de Seguridad Web y Ethical Hacking para identificar vulnerabilidades y fortalecer la defensa digital."
+    techs:
+      - "Burp Suite"
+      - "OWASP ZAP"
+      - "Nessus"
+    Ejemplo1: "<p><span><b>Análisis de Seguridad de un E-commerce:</b> Identificación de vulnerabilidades en un sitio de ventas online para prevenir ataques de phishing y robo de datos. </span><span>(Burp Suite, OWASP ZAP, Nessus)</span></p>"
+    Ejemplo2: "<p><span><b>Revisión de Seguridad en una Plataforma Bancaria:</b> Simulación de ciberataques para detectar brechas en autenticación y cifrado de datos. </span><span>(Metasploit, Wireshark, Nmap)</span></p>"
+    Ejemplo3: "<p><span><b>Evaluación de Seguridad en un SaaS:</b> Auditoría de accesos, configuraciones y encriptación en una plataforma basada en la nube. </span><span>(Kali Linux, OpenVAS, Splunk)</span></p>"
+
+  - name: "Pentesting y Pruebas de Seguridad"
+    icon: "assets/icons/pentesting.svg"
+    desc: "Servicio de Pentesting y Pruebas de Seguridad para evaluar y robustecer la protección de tus sistemas."
+    techs:
+      - "Nmap"
+      - "Metasploit"
+      - "MobSF"
+    Ejemplo1: "<p><span><b>Prueba de Penetración en una Red Corporativa:</b> Simulación de ataque interno y externo para evaluar la seguridad de servidores y dispositivos IoT. </span><span>(Nmap, Metasploit, Wireshark)</span></p>"
+    Ejemplo2: "<p><span><b>Explotación de Vulnerabilidades en una API:</b> Prueba de seguridad en una API REST para detectar fallos en autenticación y filtrado de datos. </span><span>(Postman, Burp Suite, SQLmap)</span></p>"
+    Ejemplo3: "<p><span><b>Pentesting de Aplicaciones Móviles:</b> Análisis de seguridad en apps de Android/iOS para detectar malware o fugas de datos. </span><span>(MobSF, Drozer, Frida)</span></p>"
+
+  - name: "Configuración y Administración de Servidores (Linux, Windows Server, AWS, Azure)"
+    icon: "assets/icons/server-management.svg"
+    desc: "Servicio de Configuración y Administración de Servidores para optimizar el rendimiento y la seguridad de tu infraestructura digital."
+    techs:
+      - "Linux"
+      - "AWS"
+      - "Ansible"
+    Ejemplo1: "<p><span><b>Implementación de un Servidor Web Seguro:</b> Instalación y configuración de un servidor Apache/Nginx con protección contra ataques DDoS. </span><span>(Linux, Fail2ban, ModSecurity)</span></p>"
+    Ejemplo2: "<p><span><b>Migración de Servidores a AWS:</b> Traslado de aplicaciones y bases de datos desde un servidor local a la nube de Amazon. </span><span>(AWS, Terraform, Docker)</span></p>"
+    Ejemplo3: "<p><span><b>Monitoreo y Gestión de Infraestructura Empresarial:</b> Administración y automatización de servidores Linux y Windows en una empresa con 200+ usuarios. </span><span>(Ansible, Zabbix, Prometheus)</span></p>"
+
+  - name: "Implementación de Certificados SSL y Protección contra Ataques"
+    icon: "assets/icons/ssl.svg"
+    desc: "Servicio de Implementación de Certificados SSL y protección contra ataques para asegurar la transmisión de datos y la confianza de tus usuarios."
+    techs:
+      - "Let's Encrypt"
+      - "OpenSSL"
+      - "Cloudflare"
+    Ejemplo1: "<p><span><b>Instalación de Certificado SSL en un E-commerce:</b> Implementación de certificados para cifrar transacciones y aumentar la seguridad del cliente. </span><span>(Let's Encrypt, OpenSSL, Qualys SSL Labs)</span></p>"
+    Ejemplo2: "<p><span><b>Protección contra ataques DDoS en sitio web corporativo:</b> Configuración de herramientas de mitigación para prevenir sobrecargas de tráfico. </span><span>(Cloudflare, AWS Shield, Arbor Networks)</span></p>"
+    Ejemplo3: "<p><span><b>Refuerzo de seguridad en portal bancario:</b> Implementación de certificados avanzados y monitoreo de vulnerabilidades. </span><span>(Symantec, Comodo, Rapid7)</span></p>"
+
+  - name: "Administración de Redes y Configuración de VPN"
+    icon: "assets/icons/network.svg"
+    desc: "Administración de Redes y Configuración de VPN para garantizar conexiones seguras y confiables en tu infraestructura."
+    techs:
+      - "OpenVPN"
+      - "Cisco"
+      - "IPSec"
+    Ejemplo1: "<p><span><b>Configuración de VPN para acceso remoto seguro:</b> Implementación de una VPN empresarial para empleados remotos. </span><span>(OpenVPN, Cisco AnyConnect, Fortinet)</span></p>"
+    Ejemplo2: "<p><span><b>Administración de red para sucursal internacional:</b> Configuración y optimización de redes para comunicación segura entre oficinas. </span><span>(Cisco, Juniper, Mikrotik)</span></p>"
+    Ejemplo3: "<p><span><b>Implementación de VPN Site-to-Site:</b> Conexión segura entre oficinas en distintas ubicaciones. </span><span>(IPSec, Palo Alto Networks, SonicWall)</span></p>"
+
+  - name: "Recuperación de Datos y Forense Digital"
+    icon: "assets/icons/forensics.svg"
+    desc: "Servicios de Recuperación de Datos y Forense Digital para investigar incidentes y recuperar información crítica."
+    techs:
+      - "FTK"
+      - "EnCase"
+      - "PhotoRec"
+    Ejemplo1: "<p><span><b>Recuperación de datos de servidor fallido:</b> Restauración de información crítica tras fallo del hardware. </span><span>(R-Studio, EaseUS, Recuva)</span></p>"
+    Ejemplo2: "<p><span><b>Investigación forense en incidente de ciberataque:</b> Análisis de logs y sistemas para determinar el origen del ataque. </span><span>(FTK, EnCase, Autopsy)</span></p>"
+    Ejemplo3: "<p><span><b>Recuperación de archivos borrados en empresa:</b> Recuperación y análisis forense de datos eliminados accidentalmente. </span><span>(PhotoRec, TestDisk, ProDiscover)</span></p>"

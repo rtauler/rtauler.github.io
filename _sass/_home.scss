@@ -1,0 +1,220 @@
+.slide {
+  opacity: 0;
+  animation: slideAnimation 9s infinite;
+}
+
+.slide1 {
+  animation-delay: 0s;
+}
+
+.slide2 {
+  animation-delay: 3s;
+}
+
+.slide3 {
+  animation-delay: 6s;
+}
+
+@keyframes slideAnimation {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  33%  { opacity: 1; }
+  43%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.beneficios__container{
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 3rem 1rem 3rem 1rem;
+  h2{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: normal;
+    @media (max-width: 640px){
+      font-size: 2.25rem;
+      text-align: left;
+      margin-bottom: 1rem;
+    }
+  }
+  p{
+    font-size: 1rem;
+    color: #5E6776;
+    text-align: center;
+    margin-bottom: 2rem;
+    &.desc{
+      font-family: monospace;
+    }
+    @media (max-width: 640px){
+      text-align: left;
+      font-size: 0.75rem;
+      margin-bottom: 1rem;
+    }
+  }
+  .grid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem; // adjust spacing between grid items
+    @media (max-width: 640px){
+      grid-template-columns: unset;
+      gap: 0;
+    }    
+    li {
+      position: relative;
+      padding: 1rem 1rem 1rem 3rem; // extra left padding for the icon
+      border-radius: 4px;
+      @media (max-width: 640px){
+        padding-right: 0;
+      }
+    // Pseudo-element for the custom SVG icon
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 1rem; // or use top: 50%; transform: translateY(-50%); for vertical centering
+      width: 2.2rem;
+      height: 2.2rem;
+      background-position: center;
+      background-size: 70%;
+      background-repeat: no-repeat;
+      background-color: #374151;
+      border-radius: 5px;
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="%23333" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7"/></svg>');
+    }
+    &.icon-personalized {
+      &:before {
+        background-image: url('/assets/icons/personalized-w.svg');
+      }
+    }
+    &.icon-experience {
+      &:before {
+        background-image: url('/assets/icons/experience-w.svg');
+      }
+    }
+    &.icon-innovation {
+      &:before {
+        background-image: url('/assets/icons/lightbulb-w.svg');
+      }
+    }
+    &.icon-measurable {
+      &:before {
+        background-image: url('/assets/icons/win-w.svg');
+      }
+    }
+    strong {
+      display: block;
+      margin-bottom: 0.2rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    p {
+      margin: 0;
+      color: #666;
+      font-size: 0.9rem;
+      text-align: left;
+      @media (max-width: 640px){
+        font-size: .75rem;
+      }  
+    }
+  }
+}
+}
+
+#casos {
+  background-color: #f9fafb;
+  .casos-container {
+    width: 100%;
+    max-width: 56rem; // container scales with viewport but maxes out at 56rem
+    margin: 0 auto;
+    padding: 3rem 0;
+    overflow: hidden;
+    h2 {
+      @media (max-width: 640px){
+        padding-left: 1rem;
+      }
+    }
+    
+    .slider {
+      display: grid;
+      grid-template-areas: "slide";
+      // The container's height is determined by the grid cell, which in turn
+      // is influenced by the content (the tallest slide).
+    }
+    
+    .caso {
+      grid-area: slide;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      animation: fade 15s ease-in-out infinite;
+      border-radius: 10px;
+      
+      // Stagger the animations so slides fade in/out in sequence:
+      &:nth-child(1) {
+        animation-delay: 0s;
+      }
+      &:nth-child(2) {
+        animation-delay: 5s;
+      }
+      &:nth-child(3) {
+        animation-delay: 10s;
+      }
+
+      &.company1 {
+        background: linear-gradient(rgba(55, 65, 81, 0.8), rgba(55, 65, 81, 0.8)),
+        url('/assets/img/pholder-company1.avif') center/cover no-repeat;
+      }
+      &.company2 {
+        background: linear-gradient(rgba(55, 65, 81, 0.8), rgba(55, 65, 81, 0.8)),
+        url('/assets/img/llag-bg.avif') center/cover no-repeat;
+      }
+      &.company3 {
+        background: linear-gradient(rgba(55, 65, 81, 0.8), rgba(55, 65, 81, 0.8)),
+        url('/assets/img/derma.avif') center/cover no-repeat;
+      }
+      
+      figure {
+        margin: 0;
+        padding: 5rem;
+        color: white;
+        
+        @media (max-width: 768px) {
+          padding: 2rem; // adjust padding on mobile
+        }
+        
+        img.logo {
+          height: 3rem;
+        }
+        blockquote {
+          margin: 0;
+          p {
+            font-size: 1.25rem;
+            font-weight: 600;
+          }
+        }
+        figcaption {
+          strong {
+            display: block;
+          }
+          p {
+            margin: 0;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes fade {
+  0% { opacity: 1; }
+  3.33% { opacity: 1; }
+  33.33% { opacity: 1; }
+  36.67% { opacity: 0; }
+  100% { opacity: 0; }
+}

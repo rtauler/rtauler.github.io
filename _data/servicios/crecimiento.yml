@@ -1,0 +1,51 @@
+hero:
+  title: "Nichos de Crecimiento"
+  tagline: "Impulsa tu innovación y conquista nuevos mercados con soluciones especializadas y de vanguardia"
+  cta: "Contáctanos"
+  icon: "assets/icons/grow.svg"
+  permalink: "/servicios/nicho-crecimiento/"
+services:
+  - name: "Automatización de Procesos con No-Code/Low-Code"
+    icon: "assets/icons/no-code.svg"
+    desc: "Automatiza procesos sin necesidad de programar, integrando herramientas visuales para optimizar tus flujos de trabajo."
+    techs:
+      - "Zapier"
+      - "Integromat"
+      - "Bubble"
+    Ejemplo1: "<p><span><b>Automatizaci&oacute;n de Respuestas en WhatsApp:</b> Creaci&oacute;n de un chatbot con Zapier + Twilio para responder preguntas frecuentes en un negocio. </span><span>(Zapier, Twilio, Google Sheets)</span></p>"
+    Ejemplo2: "<p><span><b>Gesti&oacute;n Autom&aacute;tica de Leads para una Agencia de Marketing:</b> Integraci&oacute;n de formularios web con un CRM sin escribir c&oacute;digo. </span><span>(Integromat, HubSpot, Airtable)</span></p>"
+    Ejemplo3: "<p><span><b>Generaci&oacute;n de Reportes Autom&aacute;ticos en Google Sheets:</b> Workflow que extrae datos de Google Analytics y los visualiza en dashboards sin necesidad de c&oacute;digo. </span><span>(Make, Google Data Studio, Airtable)</span></p>"
+
+  - name: "Consultor&iacute;a en Web3 y Blockchain"
+    icon: "assets/icons/blockchain.svg"
+    desc: "Asesor&iacute;a especializada en Web3 y Blockchain para impulsar la innovaci&oacute;n y descentralizaci&oacute;n en tu negocio."
+    techs:
+      - "Ethereum"
+      - "Solidity"
+      - "OpenSea"
+    Ejemplo1: "<p><span><b>Creaci&oacute;n de NFTs para un Artista Digital:</b> Asesor&iacute;a para dise&ntilde;ar, acu&ntilde;ar y vender NFTs en OpenSea. </span><span>(Ethereum, OpenSea, Solidity)</span></p>"
+    Ejemplo2: "<p><span><b>Implementaci&oacute;n de Pagos en Criptomonedas para un E-commerce:</b> Integraci&oacute;n de wallets y pagos con criptos en una tienda en l&iacute;nea. </span><span>(MetaMask, Shopify, Binance Pay)</span></p>"
+    Ejemplo3: "<p><span><b>Desarrollo de un Smart Contract para una Startup DeFi:</b> Creaci&oacute;n de contratos inteligentes para pr&eacute;stamos descentralizados. </span><span>(Solidity, Ethereum, Polygon)</span></p>"
+
+  - name: "Gesti&oacute;n y Optimizaci&oacute;n de Canales de YouTube/TikTok"
+    icon: "assets/icons/youtube-tiktok.svg"
+    desc: "Optimiza el crecimiento y monetizaci&oacute;n de tus canales con estrategias de contenido, SEO y an&aacute;lisis de datos."
+    techs:
+      - "TubeBuddy"
+      - "VidIQ"
+      - "TikTok Ads"
+    Ejemplo1: "<p><span><b>Estrategia de Crecimiento para un Canal de YouTube Educativo:</b> Optimización de t&iacute;tulos, miniaturas y SEO para aumentar visualizaciones. </span><span>(TubeBuddy, VidIQ, Google Trends)</span></p>"
+    Ejemplo2: "<p><span><b>Monetizaci&oacute;n de un Canal de TikTok sobre Tecnolog&iacute;a:</b> Creaci&oacute;n de una estrategia de contenido viral y colaboraci&oacute;n con marcas. </span><span>(CapCut, TikTok Ads, Patreon)</span></p>"
+    Ejemplo3: "<p><span><b>Automatizaci&oacute;n de Publicaciones para un Influencer:</b> Uso de herramientas para programar y analizar el rendimiento de videos en diversas plataformas. </span><span>(Later, Hootsuite, Social Blade)</span></p>"
+
+  - name: "Optimizaci&oacute;n de Flujos de Trabajo con IA"
+    icon: "assets/icons/ai-workflow.svg"
+    desc: "Integra herramientas de inteligencia artificial para automatizar y mejorar la eficiencia de tus procesos internos."
+    techs:
+      - "GPT"
+      - "Midjourney"
+      - "DALL·E"
+      - "ElevenLabs"
+    Ejemplo1: "<p><span><b>Automatizaci&oacute;n de Dise&ntilde;o Gr&aacute;fico con DALL·E:</b> Generaci&oacute;n de im&aacute;genes a partir de descripciones para contenido digital. </span><span>(DALL·E, Midjourney, ElevenLabs)</span></p>"
+    Ejemplo2: "<p><span><b>Generaci&oacute;n de Contenido Textual con GPT:</b> Creaci&oacute;n autom&aacute;tica de textos para campañas y redes sociales. </span><span>(GPT, OpenAI API)</span></p>"
+    Ejemplo3: "<p><span><b>Integraci&oacute;n de Herramientas de IA para Optimizar Flujos:</b> Combinaci&oacute;n de soluciones de IA para mejorar la eficiencia de procesos internos. </span><span>(GPT, Midjourney, DALL·E, ElevenLabs)</span></p>"

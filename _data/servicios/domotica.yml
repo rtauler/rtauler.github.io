@@ -1,0 +1,77 @@
+hero:
+  title: "Domótica Integral"
+  tagline: "Soluciones de automatización para hogares y espacios inteligentes, conectados y seguros."
+  cta: "Descubre la domótica"
+  icon: "assets/icons/domotica.svg"
+  permalink: "/servicios/domotica-integral/"
+
+services:
+  - name: "Hogares Inteligentes"
+    icon: "assets/icons/smart-home.svg"
+    desc: "Implementamos soluciones integrales para automatizar iluminación, climatización, seguridad y más, transformando tu hogar en un espacio inteligente."
+    techs:
+      - IoT
+      - Zigbee
+      - Z-Wave
+      - Cloud Integration
+    Ejemplo1: "<p><span><b>Iluminación y Climatización Automatizadas:</b> Control dinámico de luces y temperatura para mayor confort y eficiencia energética.</span><span>(Zigbee, Z-Wave)</span></p>"
+    Ejemplo2: "<p><span><b>Sistemas de Seguridad Conectados:</b> Integración de cámaras, sensores y alarmas para una protección completa del hogar.</span><span>(WiFi, IoT)</span></p>"
+    Ejemplo3: "<p><span><b>Asistentes Virtuales Integrados:</b> Control de dispositivos mediante Alexa, Google Home y otros asistentes inteligentes.</span><span>(API, Home Automation Protocols)</span></p>"
+
+  - name: "Integración de Sistemas y Dispositivos"
+    icon: "assets/icons/integration.svg"
+    desc: "Conectamos y centralizamos la gestión de dispositivos y sistemas de automatización para crear un ecosistema unificado y fácil de manejar."
+    techs:
+      - Middleware
+      - IoT Gateways
+      - ESP32
+      - REST APIs
+    Ejemplo1: "<p><span><b>Control Centralizado:</b> Plataforma única para gestionar dispositivos de iluminación, climatización y seguridad.</span><span>(IoT Gateways, Middleware)</span></p>"
+    Ejemplo2: "<p><span><b>Automatización Híbrida:</b> Integración de dispositivos tradicionales con tecnología IoT, utilizando módulos como ESP32 para mayor versatilidad.</span><span>(ESP32, API)</span></p>"
+    Ejemplo3: "<p><span><b>Interoperabilidad Total:</b> Conexión de sistemas diversos mediante protocolos estandarizados para un hogar verdaderamente inteligente.</span><span>(REST APIs, Cloud Integration)</span></p>"
+
+  - name: "Prototipado y Desarrollo en Domótica"
+    icon: "assets/icons/prototype.svg"
+    desc: "Desarrollo rápido de prototipos para validar nuevas ideas en automatización, permitiendo innovar y adaptar soluciones a las necesidades específicas de cada cliente."
+    techs:
+      - Rapid Prototyping
+      - IoT Platforms
+      - Embedded Systems
+    Ejemplo1: "<p><span><b>Prototipos para Startups:</b> Desarrollo de soluciones personalizadas que integran tecnología de automatización avanzada.</span><span>(IoT Platforms, Embedded Systems)</span></p>"
+    Ejemplo2: "<p><span><b>Dispositivos Conectados:</b> Creación de gadgets inteligentes que mejoran la experiencia en entornos domóticos.</span><span>(Rapid Prototyping, IoT)</span></p>"
+    Ejemplo3: "<p><span><b>Innovación en Automatización:</b> Proyectos de integración de nuevos dispositivos y tecnologías, con la opción de incluir módulos ESP32 para mayor flexibilidad.</span><span>(ESP32, Cloud Integration)</span></p>"
+  - name: "Automatización para Empresas y Oficinas Inteligentes"
+    icon: "assets/icons/office.svg"
+    desc: "Implementación de soluciones domóticas para mejorar la eficiencia y el confort en entornos empresariales y oficinas."
+    techs:
+      - IoT
+      - KNX
+      - MQTT
+      - Building Automation
+    Ejemplo1: "<p><span><b>Control Inteligente de Iluminación y Climatización:</b> Implementación de sensores y automatización para reducir consumo energético en oficinas.</span><span>(KNX, Zigbee)</span></p>"
+    Ejemplo2: "<p><span><b>Salas de Reuniones Inteligentes:</b> Automatización de proyección, sonido e iluminación mediante un solo control centralizado.</span><span>(IoT, MQTT)</span></p>"
+    Ejemplo3: "<p><span><b>Seguridad Empresarial Avanzada:</b> Integración de cámaras, accesos biométricos y alarmas automatizadas.</span><span>(Building Automation, API)</span></p>"
+
+  - name: "Energía y Eficiencia en Domótica"
+    icon: "assets/icons/energy.svg"
+    desc: "Optimización del consumo energético a través de soluciones inteligentes y sostenibles para hogares y edificios."
+    techs:
+      - Smart Meters
+      - Solar Panels
+      - IoT Energy Management
+      - Home Automation Systems
+    Ejemplo1: "<p><span><b>Gestión Energética Inteligente:</b> Control y análisis del consumo eléctrico con sensores y software de monitoreo.</span><span>(Smart Meters, IoT Energy Management)</span></p>"
+    Ejemplo2: "<p><span><b>Automatización de Paneles Solares:</b> Integración de sistemas solares con la red eléctrica para optimizar el uso de energía renovable.</span><span>(Solar Panels, Home Automation)</span></p>"
+    Ejemplo3: "<p><span><b>Optimización de Electrodomésticos Inteligentes:</b> Uso de sensores para encender y apagar dispositivos según la demanda energética.</span><span>(IoT, Zigbee)</span></p>"
+
+  - name: "Mantenimiento y Seguridad en Sistemas Domóticos"
+    icon: "assets/icons/maintenance.svg"
+    desc: "Servicios de monitoreo, actualización y seguridad para garantizar el correcto funcionamiento de los sistemas domóticos."
+    techs:
+      - Remote Monitoring
+      - Security Patching
+      - Cloud Backups
+      - IoT Device Management
+    Ejemplo1: "<p><span><b>Monitoreo y Diagnóstico Remoto:</b> Supervisión de sistemas domóticos con alertas en tiempo real para detectar fallos.</span><span>(Remote Monitoring, IoT)</span></p>"
+    Ejemplo2: "<p><span><b>Actualización y Seguridad de Dispositivos:</b> Parcheo de vulnerabilidades y mejoras en firmware para evitar ataques cibernéticos.</span><span>(Security Patching, Cloud Backups)</span></p>"
+    Ejemplo3: "<p><span><b>Mantenimiento Preventivo de Infraestructura:</b> Servicio técnico especializado para garantizar la operatividad continua de los dispositivos.</span><span>(IoT Device Management, API Monitoring)</span></p>"
